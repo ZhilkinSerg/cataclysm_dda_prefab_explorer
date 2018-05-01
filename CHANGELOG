@@ -1,0 +1,60 @@
+Version 0.4 (1 May 2018)
+	New features
+	- Shortcuts in the editor (Ctrl+S, Ctrl+Alt+S, Ctrl+W, Ctrl+F5, F5).
+	- Undo/redo in the editor.
+	- "Auto Reload" option. If enabled, the file is monitored for changes and reloaded automatically. You can use you own editor, save and see the results immediately. See tutorial.
+	- Add right click menus in the resource tree (copy path to clipboard, copy name to clipboard, edit).
+	- New tool to click on the map and copy the coordinate of the cell into the clipboard.
+	- Display of "place_" in the info box under the mouse cursor.
+	- Check for new version automatically.
+	
+	Modifications
+	
+	Bug Fixes
+	- Scans correctly the "sign" fields.
+	- Display of terrain used in a map.
+	
+Version 0.3 (29 April 2018)
+	New features
+	- New "Scan for Potential Error" that scans the entire repository for errors (e.g. undefined symbol, out-of-bound coordinates, unexpected entries [misspelled] , etc.)
+	- Remembers the CDDA main directory.
+	- The explorer tree shows palettes.
+	- Emulate for ASCII terminal palette (black and white).
+	
+	Modifications
+	- Improvement of the display following a better understanding of the format.
+	- The filter now display all the children of the matched items.
+	- Don't exit on error messages.
+	
+	Bug Fixes
+	- Don't merge tilesets when switching between tilesets with missing tiles.
+	
+Version 0.2 (28 April 2018)
+	New features
+	- Filter on elements' names.
+	- Expand all/collapse all button.
+	- Zoom control using the mouse wheel.
+	- Camera motion using mouse.
+	- Tiles color and tags indicate if a element is random (e.g. with "chance" or "repeat").
+	- Preliminary support for iso tilesets (Not yet working).
+	- Highlight of the selected cell. 
+	- Basic editor with the following features
+		- Automatic back and forth sync between the prefab display (with the edit tools) and the json text editor.
+		- Basic get/set terrain value tool.
+		- Show grid.
+		- Hide/show of individual layers (terrain, monsters, items, etc.).
+	
+	Modifications
+	- Rename of the project to "Mapgen Explorer"
+	- Labels are more visible (better colors + contour).
+	- '.' and ' ' are not considered "unknown characters" when non-matched to a palette.
+	
+	Bug Fixes
+	- The zooms is adapted automatically when switch between prefabs of different sizes.
+	- Labels going "behind" tiles.
+	- Corner non rotated tiles.
+	- Corner tiles with same type but different symbols.
+	- Remove flickering lines.
+
+Version 0.1 (24 April 2018)
+	Initial release
